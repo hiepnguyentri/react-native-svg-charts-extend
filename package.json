@@ -1,8 +1,8 @@
 {
-    "name": "react-native-svg-charts",
+    "name": "react-native-svg-charts-extend",
     "version": "5.4.0",
     "private": false,
-    "description": "Customizable charts (Line, Bar, Area, Pie, Circle, Progress) for React Native",
+    "description": "Customizable charts (Line, Bar, Area, Pie, Circle, Progress, Ohlc) for React Native",
     "main": "lib/module/index.js",
     "module": "lib/module/index.js",
     "react-native": "src/index.js",
