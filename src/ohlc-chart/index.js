@@ -195,7 +195,7 @@ class OhlcChart extends PureComponent {
     }
 }
 
-BarChart.propTypes = {
+OhlcChart.propTypes = {
     data: PropTypes.arrayOf(PropTypes.oneOfType([PropTypes.number, PropTypes.object])).isRequired,
     style: PropTypes.any,
     spacingInner: PropTypes.number,
@@ -218,7 +218,7 @@ BarChart.propTypes = {
     clamp: PropTypes.bool,
 }
 
-BarChart.defaultProps = {
+OhlcChart.defaultProps = {
     spacingInner: 0.05,
     spacingOuter: 0.05,
     contentInset: {},
